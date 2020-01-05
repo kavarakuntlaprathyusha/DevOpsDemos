@@ -48,7 +48,7 @@
    ```sh 
     kops create cluster --cloud=aws --zones=ap-southeast-1b --name=dev.k8s.valaxy.in --dns-zone=valaxy.in --dns private
     ```
-1. Create kubernetes cluser
+1. Create kubernetes cluster
     ```sh 
       kops update cluster dev.k8s.valaxy.in --yes
      ```
